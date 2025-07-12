@@ -1,0 +1,339 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  <link rel="shortcut icon" href="./assets/images/mainlogo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/avatar-2.png" alt="Poojitha challa" width="80">
+        </figure>
+        <div class="info-content">
+          <h1 class="name" title="Poojitha challa">Poojitha challa</h1>
+          <p class="title">Software Engineer</p>
+        </div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box"><ion-icon name="mail-outline"></ion-icon></div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:poojithach21@gmail.com" class="contact-link">poojithach21@gmail.com</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box"><ion-icon name="phone-portrait-outline"></ion-icon></div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+17169085413" class="contact-link">+1 (716) 908-5413</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box"><ion-icon name="location-outline"></ion-icon></div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Sacramento, California, USA</address>
+            </div>
+          </li>
+        </ul>
+        <div class="separator"></div>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://github.com/poojitha66" target="_blank" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/challapoojitha/" target="_blank" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://twitter.com/your-handle" target="_blank" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <div class="main-content">
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item"><button class="navbar-link active" data-nav-link>About</button></li>
+          <li class="navbar-item"><button class="navbar-link" data-nav-link>Resume</button></li>
+          <li class="navbar-item"><button class="navbar-link" data-nav-link>Projects</button></li>
+          <li class="navbar-item"><button class="navbar-link" data-nav-link>Contact</button></li>
+        </ul>
+      </nav>
+
+      <article class="about active" data-page="about">
+        <header><h2 class="h2 article-title">About me</h2></header>
+        <section class="about-text">
+          <p>I’m a software engineer who builds reliable systems that simplify complex problems and support everyday needs. I’m driven to collaborate on creating solutions that are strong, dependable, and built to last. My goal is to make technology feel effortless and supportive. I aim to deliver solutions that not only work well, but make a lasting positive impact.</p>
+        </section>
+        <section class="service">
+          <h3 class="h3 service-title">What I'm Doing</h3>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box"><img src="./assets/images/icon-design.svg" alt="design icon" width="40"></div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Full Stack Development</h4>
+                <p class="service-item-text">Building responsive, scalable web applications using React, Next.js, Node.js, and modern cloud services.</p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box"><img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40"></div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">AI & Machine Learning</h4>
+                <p class="service-item-text">Designing NLP systems with deep learning, transformers, and LLMs, using RAG to enhance reasoning and accuracy.</p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box"><img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40"></div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Engineering</h4>
+                <p class="service-item-text">Building data pipelines, transforming raw data into insights using ETL, SQL, and cloud for efficient analytics.</p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box"><img src="./assets/images/icon-photo.svg" alt="camera icon" width="40"></div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Cloud & DevOps</h4>
+                <p class="service-item-text">Implementing CI/CD pipelines, containerization, and cloud-native apps with Docker, Kubernetes, and AWS.</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+<!-- RESUME -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+        <!-- Experience -->
+        <section class="timeline experience-timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Experience</h3>
+          </div>
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Software Developer - Kubed Root</h4>
+              <span>Feb 2025 — Present</span>
+              <p class="timeline-text">Lacked real-time communication and visual land management, making it hard to coordinate activities or assess plots efficiently.</p>
+              <p class="timeline-text">Developed multilingual chat for farmers and map-based admin tools to manage, monitor, and visualize farmland with better clarity.</p>
+              <p class="timeline-text">Enabled seamless multilingual chat using WebSockets and React, boosting farmer-admin engagement and communication responsiveness by 60%.</p>
+              <p class="timeline-text">Integrated Google Maps with editable plots, attributes, and layers, improving land tracking, insights, and decision-making across the admin dashboard.</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Software Developer - Redprint</h4>
+              <span>Jan 2024 — Aug 2024</span>
+              <p class="timeline-text">Designed and implemented a gym management web application with React and Tailwind CSS, enabling real-time member activity tracking, improving efficiency, and increasing user satisfaction by 25%.</p>
+              <p class="timeline-text">Integrated Stripe API for payment processing, optimizing database interactions between Firebase and MySQL, resulting in a 13% reduction in read-write cycles and an 11% improvement in system performance.</p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Software Engineer - Capgemini</h4>
+              <span>Jan 2020 — July 2023</span>
+              <p class="timeline-text">Enhanced partner bank downtime detection algorithm, speeding up degradation detection by 3x and improving rerouting and processing times.</p>
+              <p class="timeline-text">Designed and implemented a payout system based on bank availability, reducing processing times by 30% and improving partner satisfaction by 25%.</p>
+              <p class="timeline-text">Led canary and phased deployment of features, reducing customer impact by 30% and increasing system stability during downtimes by 18%.</p>
+              <p class="timeline-text">Migrated FTS Service Database to new RDS with archival and partitioning, scaling support from 50TPS to 500TPS without bottlenecks.</p>
+            </li>
+        
+          </ol>
+        </section>
+      
+        <!-- Education -->
+        <section class="timeline education-timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
+          </div>
+      
+          <ol class="timeline-list">
+      
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">State University of New York at Buffalo</h4>
+              <span>Aug 2023 — Dec 2024</span>
+              <p class="timeline-text">Masters in Computer Science and Engineering <br>GPA: 3.6/4.0</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Sreenidhi Institute of Science and Technology</h4>
+              <span>April 2016 — May 2020</span>
+              <p class="timeline-text">Bachelors in Electrical and Electronics Engineering <br>GPA: 3.9/4.0</p>
+            </li>
+          </ol>
+        </section>
+        <!-- My Skills -->
+        <section class="skill">
+          <h3 class="h3 skills-title">My Skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Java & Spring Boot</h5>
+                <data value="90">90%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">React & TypeScript</h5>
+                <data value="85">85%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">AWS & Cloud Services</h5>
+                <data value="80">80%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">SQL & NoSQL Databases</h5>
+                <data value="85">85%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+            </li>
+          </ul>
+          <div class="resume-button-wrapper">
+            <a href="assets/Poojitha_Resume__77_.pdf" download class="resume-download-btn">Download Resume</a>
+          </div>
+        </section>
+      </article>
+
+      <article class="portfolio" data-page="projects">
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+        <section class="projects">
+          <!-- Filter Buttons -->
+          <ul class="filter-list">
+            <li class="filter-item"><button class="active" data-filter-btn>All</button></li>
+            <li class="filter-item"><button data-filter-btn>Full Stack</button></li>
+            <li class="filter-item"><button data-filter-btn>AI/ML</button></li>
+            <li class="filter-item"><button data-filter-btn>Data Science</button></li>
+          </ul>
+
+          <!-- Mobile Dropdown Filter -->
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>Select category</div>
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+            <ul class="select-list">
+              <li class="select-item"><button data-select-item>All</button></li>
+              <li class="select-item"><button data-select-item>Full Stack</button></li>
+              <li class="select-item"><button data-select-item>AI/ML</button></li>
+              <li class="select-item"><button data-select-item>Data Science</button></li>
+            </ul>
+          </div>
+          <!-- Project Cards -->
+          <ul class="project-list">
+
+            <li class="project-item active" data-filter-item data-category="full stack">
+              <a href="#">
+                <figure class="project-img">
+                  <img src="./assets/images/project-1.jpg" alt="Gym Management App" loading="lazy">
+                </figure>
+                <h3 class="project-title">Gym Management App</h3>
+                <p class="project-category">Full Stack</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="ai/ml">
+              <a href="#">
+                <figure class="project-img">
+                  <img src="./assets/images/project-2.png" alt="Multilingual Chat System" loading="lazy">
+                </figure>
+                <h3 class="project-title">Multilingual Chat System</h3>
+                <p class="project-category">AI/ML</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="data science">
+              <a href="#">
+                <figure class="project-img">
+                  <img src="./assets/images/project-3.jpg" alt="Flight Roster System" loading="lazy">
+                </figure>
+                <h3 class="project-title">Flight Roster System</h3>
+                <p class="project-category">Data Science</p>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+
+
+
+
+      
+      <article class="contact" data-page="contact">
+        <header><h2 class="h2 article-title">Contact</h2></header>
+        <section class="contact-form">
+          <h3 class="h3 form-title">Contact Form</h3>
+          <form action="#" class="form" data-form>
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+          </form>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <script src="./assets/js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
